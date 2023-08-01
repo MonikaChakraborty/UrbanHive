@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* nav styles */
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.logo-container p{
+    font-size: 30px;
+}
+
+.hive-color{
+    color: #e893cf;
+}
+
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-items-container .login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+/* banner styles */
+
+.banner-container{
+    margin: 50px auto 0;  /*top 50px, left-right - auto, bottom 0*/
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+
+.banner-text h1{
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+.banner-text p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fa-brands{
+    font-size: 60px;
+}
+
+.icons-container{
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+.banner-btn{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 3px solid #9376e0;
+    margin-right: 20px;
+    border-radius: px;
+}
+
+
+.banner-img{
+    width: 50%;
+}
+
+.banner-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

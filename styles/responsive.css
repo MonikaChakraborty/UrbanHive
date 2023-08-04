@@ -1,3 +1,20 @@
+@media screen and (max-width:800px){
+    /* Products */
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+@media screen and (max-width:700px){
+        /* Products */
+        .grid-container{
+            grid-template-columns: repeat(2,1fr);
+        }
+}
+
+
+
 @media screen and (max-width:400px){
 
     /* nav styles */
@@ -41,4 +58,31 @@
         font-size: 30px;
     }
 
+
+    /* Products */
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* discount styles */
+
+    .discount-container{
+        flex-direction: column;
+    }
+
+    .discount-img, .discount-text{
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-logo-container img{
+        width: 50px;
+        object-fit: cover;
+        margin-right: -8px;
+    }
+    
+    .footer-logo-container p{
+        font-size: 20px;
+    }
 }
